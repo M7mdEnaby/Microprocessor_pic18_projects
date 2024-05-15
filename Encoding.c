@@ -1,3 +1,30 @@
+//project description: Purpose:
+/*The program's primary purpose is to:
+
+Encode a user-provided sentence using a user-provided key.
+Store the encoded result and allow the user to extract specific words from the encoded string based on an index.
+How It Works:
+
+User Input:
+
+The user is prompted to enter a sentence to be encoded.
+The user is then prompted to enter a key for encoding.
+Encoding Process:
+
+The encode function is used to encode the sentence. This function takes the input sentence (str), the key (key), and produces the encoded string (e). It also stores the starting positions of each word in the encoded string in the terms array.
+The encoding is done by shifting each letter in the sentence by the corresponding letter in the key. The positions are mapped from a-z or A-Z to 0-25, and the key is used cyclically.
+Non-alphabetic characters are copied directly without any change.
+The encoded characters are then converted back to letters and stored in the encoded string e.
+Storing Word Positions:
+
+The starting positions of each word in the encoded string are stored in the terms array. This allows the program to quickly access any word in the encoded string.
+User Query:
+
+The user is asked to enter an index.
+The getIthElement function is then used to retrieve the word at the given index from the terms array and store it in the out array.
+The extracted word is displayed to the user.
+*/
+    
 #include <stdio.h>
 #include <string.h>
 
