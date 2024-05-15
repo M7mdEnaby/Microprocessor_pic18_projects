@@ -1,3 +1,5 @@
+/*This C program checks whether the brackets in a given string are balanced or not. It uses a stack data structure to push opening brackets onto the stack and pop them off when encountering closing brackets to ensure that the brackets are properly matched. The main function initializes a string with brackets and calls the areBracketsBalanced function to determine if the brackets are balanced or not.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
