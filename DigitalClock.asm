@@ -1,13 +1,13 @@
-/*The purpose of the program is to create a digital clock using the PIC16F877 microcontroller. The program includes several key functionalities:
+;The purpose of the program is to create a digital clock using the PIC16F877 microcontroller. The program includes several key functionalities:
 
-Initialization: The microcontroller is set up to configure various ports and registers.
-Timer0 Configuration: Timer0 is set up to generate periodic interrupts.
-LCD Initialization and Control: Functions are defined to initialize the LCD, send commands to it, and display data on it.
-Keypad Scanning: The program scans a keypad to receive input from the user.
-Clock Display: The current time is displayed on the LCD in the "HH:MM:SS" format.
-Clock Update: The clock updates every second, incrementing the seconds, minutes, and hours appropriately.
-User Input for Time Setting: The user can set the time using the keypad, and the program verifies and updates the display accordingly.
-*/
+;Initialization: The microcontroller is set up to configure various ports and registers.
+;Timer0 Configuration: Timer0 is set up to generate periodic interrupts.
+;LCD Initialization and Control: Functions are defined to initialize the LCD, send commands to it, and display data on it.
+;Keypad Scanning: The program scans a keypad to receive input from the user.
+;Clock Display: The current time is displayed on the LCD in the "HH:MM:SS" format.
+;Clock Update: The clock updates every second, incrementing the seconds, minutes, and hours appropriately.
+;User Input for Time Setting: The user can set the time using the keypad, and the program verifies and updates the display accordingly.
+
 
 LIST  P=PIC16F877
 include P16f877.inc
