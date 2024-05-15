@@ -1,6 +1,6 @@
-/*The program is an assembly code designed for a PIC16F877 microcontroller.
-Its purpose is to interface with a keypad and an LCD display, allowing users to input arithmetic expressions via the keypad and displaying the results on the LCD.
-It performs addition, subtraction, multiplication, and division operations based on the input received from the keypad, presenting the calculated results or error messages on the LCD.*/
+;The program is an assembly code designed for a PIC16F877 microcontroller.
+;Its purpose is to interface with a keypad and an LCD display, allowing users to input arithmetic expressions via the keypad and displaying the results on the LCD.
+;It performs addition, subtraction, multiplication, and division operations based on the input received from the keypad, presenting the calculated results or error messages on the LCD.
 
 LIST  P=PIC16F877
 include P16f877.inc
