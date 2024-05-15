@@ -1,3 +1,8 @@
+/*this program is an assembly code to control an LCD display and scan a keypad matrix using a PIC16F877 microcontroller.
+Specifically, it aims to initialize the LCD, scan the keypad for input, display the pressed key on the LCD,
+and handle specific keypresses by displaying corresponding characters on the LCD.
+*/
+
 LIST  P=PIC16F877
 include P16f877.inc
 __CONFIG _CP_OFF & _WDT_OFF & _BODEN_OFF & _PWRTE_OFF & _HS_OSC & _WRT_ENABLE_ON & _LVP_OFF & _DEBUG_OFF & _CPD_OFF
